@@ -3,6 +3,12 @@
 
 This guide will walk you through how to configure [WireGuard](https://www.wireguard.com/) for personal use, it aims to be beginner friendly, so every step is explained
 
+Prerequisite: 
+
+1. A Linux VM as your server
+
+2. The SSH private key to connect with VM
+
 Click on "Setup SSH" or "Setup WG" below to start
 
 ## [Setup SSH](HOWTOSSH.md)

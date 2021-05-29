@@ -1,4 +1,6 @@
 # Setup SSH for VM Admin
+Your will need to have a VM with private SSH key under your control 
+
 Creating a client side SSH config file makes your life easier
 
 ## Client Config File Template
