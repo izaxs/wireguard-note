@@ -1,5 +1,5 @@
 # Setup WireGuard
-Note: Assume Ubuntu as the OS
+Note: Assume Ubuntu 20.XX LTS as the OS
 
 This is only a minimal setup for a VPN with a single node bouncing server
 
