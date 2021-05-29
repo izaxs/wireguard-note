@@ -121,7 +121,7 @@ PersistentKeepalive = 20
 
 ```sudo wg-quick up wg0```
 
-To apply a change in config file, restarting is needed
+To apply a change in config file, restarting is required
 
 ```sudo wg-quick down wg0 && sudo wg-quick up wg0```
 
