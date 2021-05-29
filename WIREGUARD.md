@@ -121,6 +121,10 @@ PersistentKeepalive = 20
 
 ```sudo wg-quick up wg0```
 
+To apply a change in config file, restarting is needed
+
+```sudo wg-quick down wg0 && sudo wg-quick up wg0```
+
 ## Check Firewall
 Make sure firewall is open for WireGuard, in this case it's UDP 9999
 
