@@ -11,7 +11,7 @@ Assume ```remoteserver1``` has been configured in SSH client
 ## Enable Server Forwarding
 Both IPv4 and IPv6 forwarding need to be enabled
 
-Using editor to uncommend two lines in ```/etc/sysctl.conf```
+Use editor to uncommend two lines in ```/etc/sysctl.conf```
 
 ```net.ipv4.ip_forward=1```
 
