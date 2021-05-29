@@ -1,5 +1,5 @@
 # Setup SSH for VM Admin
-Create a client side SSH config file make your life easier
+Creating a client side SSH config file makes your life easier
 
 ## Client Config File Template
 Path: ```$HOME/.ssh/config```
