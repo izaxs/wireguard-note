@@ -21,12 +21,12 @@ Apply the changes
 
 ```sudo sysctl -p /etc/sysctl.conf```
 
-## Install WireGuard
+## Install WireGuard on Server
 ```sudo apt update```
 
 ```sudo apt install wireguard```
 
-## Add WireGuard Config File
+## Configure WireGuard on Server
 Create a folder for WireGuard
 
 ```mkdir ~/wg && cd ~/wg```
@@ -84,15 +84,16 @@ AllowedIPs = 192.168.120.10/32
 PersistentKeepalive = 20
 ```
 
+## Install & Configure WireGuard On Client
 Server side config is done, let's prepare the client config file in advance
 
-We print the public key of server by ```wg pubkey < wg-private.key```
+On server, we print the public key of server by ```wg pubkey < wg-private.key```
 
 Assume the public IP of the server is ```40.87.100.12```
 
-The corresponding WireGuard config file on client side should be something like below
+On your client device, install WireGuard from [official site](https://www.wireguard.com/install/)
 
-(Note: it's not needed on server side)
+The corresponding WireGuard config file on client side should be something like below
 
 ```
 [Interface]
@@ -125,10 +126,10 @@ To apply a change in config file, restarting is required
 
 ```sudo wg-quick down wg0 && sudo wg-quick up wg0```
 
-## Check Firewall
+## Check Server Firewall
 Make sure firewall is open for WireGuard, in this case it's UDP 9999
 
-Usually it has to be explicitly configured at the cloud provider portal
+Usually the network rule has to be explicitly configured at the cloud provider portal
 
 
 [Back to README.md](README.md)
