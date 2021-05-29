@@ -1,5 +1,7 @@
 # WireGuard Note
-The easiest guide for new user, everything is explained
+[WireGuard](https://www.wireguard.com/) is the most elagant way to setup a VPN
+
+This guide will walk you through how to configure [WireGuard](https://www.wireguard.com/) for personal use, it aims to be beginner friendly, so every step is explained
 
 Click on "Setup SSH" or "Setup WG" below to start
 
