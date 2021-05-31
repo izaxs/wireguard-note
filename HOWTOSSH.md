@@ -1,5 +1,7 @@
 # Setup SSH for VM Admin
-Your will need to have a VM with private SSH key under your control 
+Your will need to have a VM with private SSH key under your control
+
+Use your desired cloud provider to create a VM, usually the cheapest/smallest VM will be good enough to setup a VPN server
 
 Creating a client side SSH config file makes your life easier
 
