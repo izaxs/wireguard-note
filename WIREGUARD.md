@@ -57,8 +57,7 @@ PrivateKey = WJTvqUSY3ulPDuPx/OX6XtERq+YLzt/C223YeMTSWkc=
 
 # Define the subnet that this VPN uses and the private IP of the server node
 # Set the mask to 24 because it relays subnet traffic
-# In this case, the VPN subnet gives at most 256 addresses
-# In this case, the 4th section of the IP address is assignable
+# In this case, the VPN subnet gives at most 256 (254 in real) addresses to peers
 # The subnet should not conflict with the physical subnet of any device that joins the VPN
 Address = 192.168.120.40/24
 
