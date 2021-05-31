@@ -112,7 +112,7 @@ DNS = 8.8.8.8
 PublicKey = z7+52IbQNGBtpROzK4lzLWezjnVG7C0rDGhG5WCqZzk=
 
 # Force all traffic to this peer, so the VPN hides all the traffic for you
-# otherwise, set it to something like 192.168.120.40/24, to route only subnet traffic to VPN  
+# Otherwise, set it to something like 192.168.120.40/24, to route only subnet traffic to VPN  
 AllowedIPs = 0.0.0.0/0
 
 # The public IP & port of the bouncing server
