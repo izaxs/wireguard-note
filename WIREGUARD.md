@@ -126,10 +126,12 @@ To apply a change in config file, restarting is required
 
 ```sudo wg-quick down wg0 && sudo wg-quick up wg0```
 
-## Check Server Firewall
-Make sure firewall is open for WireGuard, in this case it's UDP 9999
+## Check Server Firewall & Network Rule
+***Don't forget to check the firewall!***
 
 Usually the network rule has to be explicitly configured at the cloud provider portal
+
+Make sure firewall is open for WireGuard, in this case it's UDP 9999
 
 
 [Back to README.md](README.md)
