@@ -153,4 +153,4 @@ Usually the network rule has to be explicitly configured at the cloud provider p
 Make sure firewall is open for WireGuard, in this case it's UDP 9999
 
 
-[Back to README.md](README.md)
+[Back to Top](README.md)
