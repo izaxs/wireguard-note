@@ -12,7 +12,7 @@ Prerequisite:
 Click on "Setup SSH" or "Setup WG" below to start
 
 ## [Setup SSH](HOWTOSSH.md)
-Before working on WireGuard, setup SSH on client with alias, so you can easily manage the server later
+Suggestion: Before working on WireGuard, setup SSH on client with alias, so you can easily manage the server later
 
 # Setup WireGuard
 Note: Assume Ubuntu 20.XX LTS as the OS
