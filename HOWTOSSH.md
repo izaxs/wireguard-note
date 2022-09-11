@@ -8,7 +8,8 @@ Creating a client side SSH config file makes your life easier
 ## Client Config File Template
 Path: ```$HOME/.ssh/config```
 
-```Host <Give Your Endpoint A Name>
+```
+Host <Give Your Endpoint A Name>
   HostName <Server Public IP>
   Port <Port>
   User <User Name>
@@ -26,7 +27,8 @@ Server login user: ubuntu
 
 Then create config file at ```$HOME/.ssh/config```
 
-```Host remoteserver1
+```
+Host remoteserver1
   HostName 40.87.100.12
   Port 22
   User ubuntu
