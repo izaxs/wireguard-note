@@ -34,6 +34,8 @@ Host remoteserver1
   User ubuntu
   IdentityFile ~/.ssh/keys/mykey.pem
 ```
+## SSH Server Firewall
+For better safety, expose the server's SSH port only to the IP of your client device
 
 ## Check SSH Server Fingerprint For Safety
 Although not required, it's always good to prevent "man in the middle" attack at the first time login
