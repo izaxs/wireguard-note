@@ -5,7 +5,7 @@ _Setup your own VPN elegantly_
 To learn how to manually setup, check [WIREGUARD.md](WIREGUARD.md)
 
 ## The Tailscale Way: 2023 Update
-It's significantly easier to setup a VPN exit node server with Tailscale
+The days of laborious manual VPN setup have become a thing of the past with the introduction of Tailscale. This innovation greatly simplifies the process of establishing a VPN with exit nodes.
 
 ### Tailscale Signup
 Follow [Tailscale's official guide](https://tailscale.com/kb/1017/install/#step-1-sign-up-for-an-account) to signup
